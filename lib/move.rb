@@ -12,6 +12,6 @@ int_input = number.to_i
 int_input = int_input - 1
 end
 
-def move(board,index,char ="X")
-  board[index] = char
+def move(array,index,char ="X")
+  array[index] = char
 end
