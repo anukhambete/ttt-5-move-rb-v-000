@@ -7,8 +7,8 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-def input_to_index(input)
-int_input = input.to_i
+def input_to_index(number)
+int_input = number.to_i
 int_input = int_input - 1
 end
 
